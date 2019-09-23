@@ -18,7 +18,7 @@ void loop() {
   }
   digitalWrite(grn,LOW);
   digitalWrite(yel, HIGH);
-  delay(10000);
+  delay(5000);
   digitalWrite(yel,LOW);
   digitalWrite(red,HIGH);
   delay(6000);
@@ -30,6 +30,6 @@ void loop() {
   }
   digitalWrite(red,LOW);
   digitalWrite(yel, HIGH);
-  delay(10000);
+  delay(5000);
   digitalWrite(yel,LOW);
 }
