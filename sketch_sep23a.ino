@@ -21,13 +21,7 @@ void loop() {
   delay(5000);
   digitalWrite(yel,LOW);
   digitalWrite(red,HIGH);
-  delay(6000);
-    for(int i2 = 8; i2 !=0; i2--){
-    digitalWrite(red, HIGH);
-    delay(250);
-    digitalWrite(red, LOW);
-    delay(250);
-  }
+  delay(10000);
   digitalWrite(red,LOW);
   digitalWrite(yel, HIGH);
   delay(5000);
